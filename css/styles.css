@@ -52,8 +52,7 @@ body {
 .description p {
   font-size: 1.2em;
   padding: 10px 10px 0 10px;
-  color: white;
-  text-shadow: 2px 2px 2px black;
+  color: black;
 }
 
 #footer {
