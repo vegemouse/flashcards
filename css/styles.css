@@ -1,17 +1,54 @@
-.card {
-  border: 2px solid lightblue;
-  height: 200px;
-  margin-top: 10px;
-  padding-top: 50px;
+body {
+  background-color: lightblue;
+}
+
+.container {
+  background-color: white;
   border-radius: 10px;
+  background-color: transparent;
+  padding-bottom: 50px;
+}
+.jumbotron {
+  text-align: center;
+  background: linear-gradient(white, lightblue);
+}
+
+.jumbotron h1 {
+  font-family: 'VT323', monospace;
+  letter-spacing: 20px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.card {
+  border: 2px solid black;
+  height: 200px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 7px;
   text-align: center;
   cursor: pointer;
 }
 
+.card h2 {
+  padding-top: 50px;
+}
+
 .card:hover {
-  background-color: lightblue;
+  background-color: #EEE;
 }
 
 .description {
   display: none;
+}
+
+.description p {
+  font-size: 1.2em;
+  padding: 10px 10px 0 10px;
+}
+
+#footer {
+  font-size: 2em;
+  color: white;
+  padding: 80px 0 0 60px;
 }
